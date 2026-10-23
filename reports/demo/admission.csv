@@ -1,0 +1,7 @@
+candidate,status,reason,expression_sha256
+momentum20,ADMITTED,Technical contract passed; no alpha claim,ed0751f516c8f920aa3faa889888737d7e09563309a399d866a85d7ad8c174c7
+reversal5,ADMITTED,Technical contract passed; no alpha claim,140d77265a55b7432688c4bc82ec8931937479cedcfa93517eb5b7fad1f4162c
+volatility20,ADMITTED,Technical contract passed; no alpha claim,a4879a978f91b6fd415f63ef61284e6b5eec52978ecf097843cc27f0f77f136d
+duplicate_momentum,DUPLICATE,Same canonical expression as momentum20,ed0751f516c8f920aa3faa889888737d7e09563309a399d866a85d7ad8c174c7
+future_reference,REJECTED,Window must be an integer between 1 and 60; future references forbidden,
+unsupported_depth,REJECTED,Unsupported field,

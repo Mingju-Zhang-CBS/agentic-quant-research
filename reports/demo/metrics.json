@@ -1,0 +1,49 @@
+{
+  "candidate_status": {
+    "ADMITTED": 3,
+    "DUPLICATE": 1,
+    "REJECTED": 2
+  },
+  "configuration": {
+    "bootstrap_block_dates": 10,
+    "bootstrap_resamples": 1000,
+    "horizon_sessions": 5,
+    "partition": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "seed": 20261023
+  },
+  "confirmation_95_interval": [
+    -0.12185310214311286,
+    -0.030380543194721495
+  ],
+  "confirmation_mean_rank_ic": -0.07069715104086748,
+  "data_kind": "synthetic",
+  "elapsed_seconds": 0.8291988999990281,
+  "measurement": {
+    "platform": "Windows",
+    "python": "3.12.6",
+    "workload": "one local complete workflow; elapsed time includes validation, factors and research statistics, before plotting"
+  },
+  "model_calls": 0,
+  "paid_api_calls": 0,
+  "selected": "momentum20",
+  "split": {
+    "dates": {
+      "confirmation": 147,
+      "train": 433,
+      "validation": 141
+    },
+    "first_confirmation": "2022-04-27",
+    "first_validation": "2021-10-05",
+    "horizon_sessions": 5,
+    "purged_boundary_dates": 10,
+    "rows": {
+      "confirmation": 2940,
+      "train": 8660,
+      "validation": 2820
+    }
+  }
+}

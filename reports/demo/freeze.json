@@ -1,0 +1,45 @@
+{
+  "eligible_candidates": [
+    "momentum20",
+    "reversal5",
+    "volatility20"
+  ],
+  "preprocessing": {
+    "momentum20": {
+      "fitted_partition": "train",
+      "mean": 0.005411402740175508,
+      "orientation": 1,
+      "scale": 0.06477625661579592
+    },
+    "reversal5": {
+      "fitted_partition": "train",
+      "mean": -0.0009859806818032781,
+      "orientation": 1,
+      "scale": 0.0317751530694932
+    },
+    "volatility20": {
+      "fitted_partition": "train",
+      "mean": 0.013331811510490893,
+      "orientation": -1,
+      "scale": 0.002270538195514091
+    }
+  },
+  "rule": "highest validation mean RankIC after training-only sign choice; candidate ID breaks ties",
+  "selected": "momentum20",
+  "split": {
+    "dates": {
+      "confirmation": 147,
+      "train": 433,
+      "validation": 141
+    },
+    "first_confirmation": "2022-04-27",
+    "first_validation": "2021-10-05",
+    "horizon_sessions": 5,
+    "purged_boundary_dates": 10,
+    "rows": {
+      "confirmation": 2940,
+      "train": 8660,
+      "validation": 2820
+    }
+  }
+}

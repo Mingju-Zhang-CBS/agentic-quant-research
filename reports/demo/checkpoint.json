@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "REPORT.md": "a59548e5c2d350812668a8be38446423493ab574d7691de1aa2c87a5eee0d48c",
+    "admission.csv": "9c6a527c6485e71946d62fd4e362f7a1cc5262a42407d6e91f1cbf1f30298e6e",
+    "confirmation_daily.csv": "aced94181daeb35fd6249e0caf8b808b34555f47a00a4201edbcff70228489db",
+    "development.csv": "35adb55724c8839509550d72feb9be305b69eb8a3ab187ae846c13ccb2c5215f",
+    "freeze.json": "20ff83e22979ea9beee21db34a199bfe3680f2298374db433c1be6d97dd25a62",
+    "manifest.json": "c1079d4e16fe006c02d7326ae4f8f66618f24ee187c8d76385848fcb1ce37ebe",
+    "metrics.json": "9cb20a533f2d09fe27699ccd51072825688770a8fde9b2648d1169e6d76ea44e",
+    "validation.png": "fcd5b1c5d7ac9a10a569685368d67276a90861d6dcb91332d3d05c905cbbaa79"
+  },
+  "identity": {
+    "configuration": {
+      "bootstrap_block_dates": 10,
+      "bootstrap_resamples": 1000,
+      "horizon_sessions": 5,
+      "partition": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "seed": 20261023
+    },
+    "data_kind": "synthetic",
+    "input_sha256": "52a2df08615bd2a97aa561c6c58638eb7d73d6ba22140e7d4e2847cbde57269b",
+    "proposals_sha256": "b7b4c932aa194d529026c85a28b709c9e942c692f1414af1a72e69d0c38a2505",
+    "source_sha256": {
+      "__init__.py": "488c3223d44c1ae46043b6c70f8d0de5b0ac3511acd4a5e10629f03319df3fed",
+      "__main__.py": "2eaf9e03d33786e0059acd97019f08423e191f15aabbbe1ec7bc693ca36071cd",
+      "core.py": "248920b990b567984e2b4a60ed249bf9fe5d6d18e79f625776bbc84d7f765c65"
+    }
+  },
+  "lineage_sha256": "c3a269c8ba97c7dfdec39b4f08bba844e5a81e3e0bcb4f341d52c39aa5b5b03f",
+  "stage": "complete"
+}

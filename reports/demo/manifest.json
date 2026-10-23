@@ -1,0 +1,32 @@
+{
+  "configuration": {
+    "bootstrap_block_dates": 10,
+    "bootstrap_resamples": 1000,
+    "horizon_sessions": 5,
+    "partition": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "seed": 20261023
+  },
+  "created_utc": "2026-10-23T23:33:28.640512+00:00",
+  "data_kind": "synthetic",
+  "environment": {
+    "dependencies": {
+      "matplotlib": "3.9.2",
+      "numpy": "2.1.2",
+      "pandas": "2.2.3"
+    },
+    "platform": "Windows",
+    "python": "3.12.6"
+  },
+  "input_sha256": "52a2df08615bd2a97aa561c6c58638eb7d73d6ba22140e7d4e2847cbde57269b",
+  "proposals_sha256": "b7b4c932aa194d529026c85a28b709c9e942c692f1414af1a72e69d0c38a2505",
+  "schema_version": "research-studio-run-v1",
+  "source_sha256": {
+    "__init__.py": "488c3223d44c1ae46043b6c70f8d0de5b0ac3511acd4a5e10629f03319df3fed",
+    "__main__.py": "2eaf9e03d33786e0059acd97019f08423e191f15aabbbe1ec7bc693ca36071cd",
+    "core.py": "248920b990b567984e2b4a60ed249bf9fe5d6d18e79f625776bbc84d7f765c65"
+  }
+}

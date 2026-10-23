@@ -1,0 +1,63 @@
+[
+  {
+    "id": "momentum20",
+    "hypothesis": "Medium-horizon continuation is a testable hypothesis.",
+    "expression": {
+      "op": "return",
+      "field": "close",
+      "window": 20
+    }
+  },
+  {
+    "id": "reversal5",
+    "hypothesis": "Recent price movements may reverse.",
+    "expression": {
+      "op": "negate",
+      "input": {
+        "op": "return",
+        "field": "close",
+        "window": 5
+      }
+    }
+  },
+  {
+    "id": "volatility20",
+    "hypothesis": "Realized risk may help describe subsequent cross-sectional returns.",
+    "expression": {
+      "op": "rolling_std",
+      "window": 20,
+      "input": {
+        "op": "return",
+        "field": "close",
+        "window": 1
+      }
+    }
+  },
+  {
+    "id": "duplicate_momentum",
+    "hypothesis": "A second name must not create a second independent idea.",
+    "expression": {
+      "op": "return",
+      "field": "close",
+      "window": 20
+    }
+  },
+  {
+    "id": "future_reference",
+    "hypothesis": "Deliberately invalid future reference.",
+    "expression": {
+      "op": "lag",
+      "field": "close",
+      "window": -1
+    }
+  },
+  {
+    "id": "unsupported_depth",
+    "hypothesis": "Deliberately unavailable order-book field.",
+    "expression": {
+      "op": "lag",
+      "field": "bid_depth",
+      "window": 1
+    }
+  }
+]
