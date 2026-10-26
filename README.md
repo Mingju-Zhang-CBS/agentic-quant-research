@@ -8,7 +8,7 @@
 
 **Question:** Can a research workflow preserve the distinction between a valid idea, a development winner and an unsuccessful confirmation result?
 
-I implemented a small offline controller connecting candidate specifications, safe expression evaluation, date-aware research, frozen selection, evidence and sealed-stage recovery. It is inspired by the public research-automation problem addressed by [Microsoft RD-Agent](https://github.com/microsoft/RD-Agent), with an independently written implementation and synthetic inputs.
+The study implements a small offline controller connecting candidate specifications, safe expression evaluation, date-aware research, frozen selection, evidence and sealed-stage recovery. It is inspired by the public research-automation problem addressed by [Microsoft RD-Agent](https://github.com/microsoft/RD-Agent), with an independently written implementation and synthetic inputs.
 
 The word *agentic* describes the workflow boundary being studied. The default proposer is a six-item JSON fixture: no language model is called. Human-authored or externally generated proposals enter through the same validator. Full Qlib integration and live model generation are future extensions, not claims about this demo.
 
@@ -99,8 +99,7 @@ Synthetic dynamics, one seed and a three-factor search do not establish a financ
 - [Methods and contracts](docs/METHODS.md): precise inputs, conventions and limits.
 - [Worked walkthrough](docs/WALKTHROUGH.md): follow a numerical example and the implementation.
 - [Executed report](reports/demo/REPORT.md): inspect the complete recorded experiment.
-- [Interview discussion](docs/INTERVIEW.md): decisions, failure modes and questions to defend.
-- [Resume evidence](docs/RESUME.md): claims traceable to generated artifacts.
+- [Technical discussion](docs/DISCUSSION.md): decisions, failure modes and questions to defend.
 - [Provenance](docs/PROVENANCE.md): authorship boundaries, public references and data rights.
 
-Development and documentation were AI-assisted. The new implementation is a public-method demonstration prepared for Mingju Zhang. Original academic, employer and recruitment files are outside the distribution. The [MIT license](LICENSE) applies to newly authored code; dependency and external-data rights remain separate.
+Research direction was selected by Mingju Zhang. Implementation, experiments, tests and documentation were AI-assisted; [provenance](docs/PROVENANCE.md) distinguishes established methods and original source work. The [MIT license](LICENSE) applies to new code; dependency and data rights remain separate.
